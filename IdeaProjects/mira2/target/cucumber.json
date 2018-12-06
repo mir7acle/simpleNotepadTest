@@ -1,0 +1,111 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Home page with three Arrivals only",
+        "description": "",
+        "id": "2.-home-page-with-three-arrivals-only;home-page-with-three-arrivals-only",
+        "after": [
+          {
+            "result": {
+              "duration": 1383098012,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyStepdefs.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8239371228,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "browser \"chrome\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "chrome",
+                  "offset": 9
+                }
+              ],
+              "location": "MyStepdefs.browser(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8831026900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "website loaded this address: \"http://practice.automationtesting.in/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://practice.automationtesting.in/",
+                  "offset": 30
+                }
+              ],
+              "location": "MyStepdefs.websiteLoadedThisAddress(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7667723041,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click on Shop Menu",
+            "match": {
+              "location": "MyStepdefs.clickOnShopMenu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5124021521,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click on Home menu button",
+            "match": {
+              "location": "MyStepdefs.clickOnHomeMenuButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 172812164,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the Home page must contains only three Arrivals",
+            "match": {
+              "location": "MyStepdefs.theHomePageMustContainsOnlyThreeArrivals()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@ui"
+          }
+        ]
+      }
+    ],
+    "name": "2. Home page with three Arrivals only",
+    "description": "",
+    "id": "2.-home-page-with-three-arrivals-only",
+    "keyword": "Feature",
+    "uri": "homePageScenarion.feature"
+  }
+]
